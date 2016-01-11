@@ -19,3 +19,7 @@ static void __exit hello_2_exit(void)
 
 module_init(hello_2_init);
 module_exit(hello_2_exit);
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Nathan Palmer");
+MODULE_DESCRIPTION("Basic kernel module");

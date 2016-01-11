@@ -1,2 +1,2 @@
 obj-m := hello.o
-
+obj-m := memtest.o
