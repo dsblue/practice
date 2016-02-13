@@ -1,7 +1,3 @@
-//
-// Created by Nathan Palmer on 1/17/16.
-//
-
 #ifndef PRACTICE_NODE_H
 #define PRACTICE_NODE_H
 

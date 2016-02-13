@@ -1,7 +1,3 @@
-//
-// Created by Nathan Palmer on 1/22/16.
-//
-
 #include <string.h>
 
 void reverseStringInPlace(char *string) {

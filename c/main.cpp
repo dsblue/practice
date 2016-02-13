@@ -1,5 +1,9 @@
 #include "BinaryTree.h"
 
+#include "gen.h"
+#include "print.h"
+#include "Array.h"
+
 extern "C" {
     void reverseStringInPlace(char *);
     int runLinkedList();
@@ -29,6 +33,20 @@ int main() {
     reverseStringInPlace(test_string);
     printf("%s\n", test_string);
 
+    int *temp;
+    const int len = 1000;
+
+    Array<int> A(1000);
+
+    A.generate_random();
+    A.bubbleSort();
+    A.print();
+
+    i = 10;
+    printf("Find %d: index %d\n", i, A.find(i));
+
+    generate_random_array_int(&temp, len);
+    print_array_int(temp, len);
 
 
 }
