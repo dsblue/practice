@@ -36,17 +36,17 @@ int main() {
     int *temp;
     const int len = 1000;
 
-    Array<int> A(1000);
+    Array<int> A(len);
 
     A.generate_random();
-    A.bubbleSort();
+    A.print();
+//    A.bubbleSort();
+    A.mergeSort();
     A.print();
 
     i = 10;
     printf("Find %d: index %d\n", i, A.find(i));
 
-    generate_random_array_int(&temp, len);
-    print_array_int(temp, len);
 
 
 }
