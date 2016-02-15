@@ -1,11 +1,9 @@
 #include "BinaryTree.h"
 
-#include "gen.h"
-#include "print.h"
+#include "reverse_manipulation.h"
 #include "Array.h"
 
 extern "C" {
-    void reverseStringInPlace(char *);
     int runLinkedList();
 }
 
